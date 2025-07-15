@@ -982,4 +982,5 @@
     <string name="event_handling6">
     If you leave the text for age or ID as blank or enter some non-numeric data, it gives a warning message box and clears the respective text −\n\n
     </string>
+    <string name="developers_names">AYOBAMI HASSAN (ND23CMS00219)\nIBRAHIM BALA (ND23CMS00220)\nALIYU IBRAHIM (ND23CMS00221)\nHALIRU IBRAHIM (ND23CMS00222)\nMADANI KHALIFA FARUK (ND23CMS00223)\nABDULWAHAB ABDULWAHAB (ND23CMS00224)</string>
 </resources>

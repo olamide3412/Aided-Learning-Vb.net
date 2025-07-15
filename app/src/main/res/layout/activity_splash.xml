@@ -39,8 +39,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@+id/splash_text_header"
-            android:layout_marginTop="50dp"
-            android:layout_marginBottom="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
             android:fontFamily="@font/antic"
             android:text="Develop by"
             android:textAlignment="center"
@@ -54,10 +54,10 @@
             android:layout_height="wrap_content"
             android:layout_below="@+id/splash_text_parish"
             android:fontFamily="@font/antic"
-            android:text="TUKUR WAKALA\nHND22CMS00084"
+            android:text="@string/developers_names"
             android:textAlignment="center"
             android:textColor="?attr/text_color"
-            android:textSize="20sp"
+            android:textSize="18sp"
             android:visibility="visible"
             tools:visibility="visible" />
 

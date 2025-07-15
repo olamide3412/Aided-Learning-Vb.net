@@ -19,20 +19,21 @@
         android:layout_width="100dp"
         android:layout_height="50dp"
         android:layout_gravity="center"
-        android:scaleType="centerCrop"/>
+        android:scaleType="fitXY"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Develop by TUKUR WAKALA
-"
+        android:text="Develop by TUKUR WAKALA"
         android:layout_gravity="center"
-        android:textColor="?attr/text_color"/>
+        android:textColor="?attr/text_color"
+        android:visibility="gone"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="RegNo.: HND22CMS00084"
         android:layout_gravity="center"
-        android:textColor="?attr/text_color"/>
+        android:textColor="?attr/text_color"
+        android:visibility="gone"/>
     </LinearLayout>
 
 </RelativeLayout>
