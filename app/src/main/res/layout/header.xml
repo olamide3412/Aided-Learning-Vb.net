@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="140dp"
+    android:background="?attr/card_bg_color"
+    android:padding="20dp"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        >
+
+
+    <ImageView
+        android:src="@drawable/vb"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:scaleType="centerCrop"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Develop by TUKUR WAKALA
+"
+        android:layout_gravity="center"
+        android:textColor="?attr/text_color"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RegNo.: HND22CMS00084"
+        android:layout_gravity="center"
+        android:textColor="?attr/text_color"/>
+    </LinearLayout>
+
+</RelativeLayout>

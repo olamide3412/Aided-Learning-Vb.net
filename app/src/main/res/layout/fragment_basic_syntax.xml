@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Fragments.BasicSyntaxFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="5dp"
+        android:layout_marginBottom="10dp"
+        android:background="?attr/background_color"
+        >
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="10dp"
+            android:layout_margin="5dp"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/program_structure"
+                    android:textAlignment="gravity"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/anton"
+                    android:textColor="@color/headerColor"
+                    android:padding="10dp"
+                    android:textAllCaps="true"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="@color/headerColor"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/program_structure1"
+                    android:textAlignment="gravity"
+                    android:textSize="20sp"
+                    android:textColor="?attr/text_color"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/img_1"
+                    android:scaleType="fitXY"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/program_structure3"
+                    android:textAlignment="gravity"
+                    android:textSize="20sp"
+                    android:textColor="?attr/text_color"/>
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="10dp"
+            android:layout_margin="5dp"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Compile &amp; Execute VB.Net Program"
+                    android:textAlignment="gravity"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/anton"
+                    android:textColor="@color/headerColor"
+                    android:padding="10dp"
+
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/program_structure4"
+                    android:textAlignment="gravity"
+                    android:textSize="20sp"
+                    android:textColor="?attr/text_color"/>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="10dp"
+            android:elevation="2dp"
+            android:layout_margin="5dp"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Basic Syntax"
+                    android:textAlignment="gravity"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/anton"
+                    android:textColor="@color/headerColor"
+                    android:padding="10dp"
+
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="@color/headerColor"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/basic1"
+                    android:textAlignment="gravity"
+                    android:textSize="20sp"
+                    android:textColor="?attr/text_color"
+                    />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/img"
+                    android:scaleType="fitXY"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/basic2"
+                    android:textAlignment="gravity"
+                    android:textSize="20sp"
+                    android:textColor="?attr/text_color"
+                    />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/img_2"
+                    android:scaleType="fitXY"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/basic3"
+                    android:textAlignment="gravity"
+                    android:textSize="20sp"
+                    android:textColor="?attr/text_color"
+                    />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/img_3"
+                    android:scaleType="fitXY"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/basic4"
+                    android:textAlignment="gravity"
+                    android:textSize="20sp"
+                    android:textColor="?attr/text_color"
+                    />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/img_4"
+                    android:scaleType="fitXY"
+                    />
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>

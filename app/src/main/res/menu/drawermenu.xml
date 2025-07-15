@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+    <item android:id="@+id/home" android:title="Home" />
+    <item android:id="@+id/overView" android:title="Over View" />
+    <item android:id="@+id/environmentSetup" android:title="Environment Setup" />
+    <item android:id="@+id/basicSyntax" android:title="Program Structure &amp; Basic Syntax" />
+         <item android:id="@+id/dataTypes" android:title="Basic Datatypes" />
+    <item android:id="@+id/variableTypes" android:title="Variable &amp; Constants " />
+    <item android:id="@+id/modifiertypes" android:title="Modifier Types" />
+        <item android:id="@+id/statementss" android:title="Statement" />
+    <item android:id="@+id/basicOperators" android:title="Basic Operators" />
+    <item android:id="@+id/decisionMaking" android:title="Decision Making" />
+    <item android:id="@+id/loopControl" android:title="Loop Control" />
+    <item android:id="@+id/string" android:title="Strings" />
+    <item android:id="@+id/arrays" android:title="Arrays" />
+
+    <item android:id="@+id/functionF" android:title="Functions" />
+    <item android:id="@+id/objectClass" android:title="Object and Class" />
+    <item android:id="@+id/basicControl" android:title="Basic Controls" />
+    <item android:id="@+id/dialogBoxes" android:title="Dialog Boxes" />
+    <item android:id="@+id/eventHandling" android:title="Event Handling" />
+
+
+
+    </group>
+    <item android:title="Communicate">
+        <menu>
+            <item android:id="@+id/nav_share"
+                android:icon="@drawable/ic_share"
+                android:title="Share"
+                />
+
+            <item android:id="@+id/nav_send"
+                android:icon="@drawable/ic_send"
+                android:title="Send"
+                />
+        </menu>
+    </item>
+
+</menu>

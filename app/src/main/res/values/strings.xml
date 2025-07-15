@@ -1,0 +1,985 @@
+<resources>
+    <string name="app_name">Aided Learning Vb.net</string>
+
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="what_is_java">What is VB.net?   </string>
+    <string name="home_java">
+        VB.Net is a simple, modern, object-oriented computer programming language developed by Microsoft to combine the power of .NET Framework and the common language runtime with the productivity benefits that are the hallmark of Visual Basic. This tutorial will teach you basic VB.Net programming and will also take you through various advanced concepts related to VB.Net programming language\n
+        </string>
+
+    <string name="home2">
+       This tutorial has been prepared for the beginners to help them understand basic VB.Net programming. After completing this tutorial, you will find yourself at a moderate level of expertise in VB.Net programming from where you can take yourself to next levels.\n
+    </string>
+
+    <string name="javahome3">Below code box allows you to change the value of the code. Try to change the value inside println() and run it again to verify the result.</string>
+    <string name="home_header_4">Prerequisites</string>
+    <string name="home_4">
+       VB.Net programming is very much based on BASIC and Visual Basic programming languages, so if you have basic understanding on these programming languages, then it will be a fun for you to learn VB.Net programming language.  </string>
+
+
+    <string name="java_overview">Overview</string>
+
+    <string name="overview">
+
+        Visual Basic .NET (VB.NET) is an object-oriented computer programming language implemented on the .NET Framework. Although it is an evolution of classic Visual Basic language, it is not backwards-compatible with VB6, and any code written in the old version does not compile under VB.NET.\n\n
+
+        Like all other .NET languages, VB.NET has complete support for object-oriented concepts. Everything in VB.NET is an object, including all of the primitive types (Short, Integer, Long, String, Boolean, etc.) and user-defined types, events, and even assemblies. All objects inherits from the base class Object.\n\n
+
+        VB.NET is implemented by Microsoft\'s .NET framework. Therefore, it has full access to all the libraries in the .Net Framework. It\'s also possible to run VB.NET programs on Mono, the open-source alternative to .NET, not only under Windows, but even Linux or Mac OSX.\n\n
+
+        The following reasons make VB.Net a widely used professional language −\n\n
+
+        Modern, general purpose.\n\n
+
+        Object oriented.\n\n
+
+        Component oriented.\n\n
+
+        Easy to learn.\n\n
+
+        Structured language.\n\n
+
+        It produces efficient programs.\n\n
+
+        It can be compiled on a variety of computer platforms.\n\n
+
+        Part of .Net Framework.\n\n
+    </string>
+
+    <string name="overView2">
+        VB.Net has numerous strong programming features that make it endearing to multitude of programmers worldwide. Let us mention some of these features −\n\n
+
+        Boolean Conditions\n\n
+
+        Automatic Garbage Collection\n\n
+
+        Standard Library\n\n
+
+        Assembly Versioning\n\n
+
+        Properties and Events\n\n
+
+        Delegates and Events Management\n\n
+
+        Easy-to-use Generics\n\n
+
+        Indexers\n\n
+
+        Conditional Compilation\n\n
+
+        Simple Multithreading\n\n
+    </string>
+    <string name="local_environment_setup">Environment Setup</string>
+    <string name="local1">In this chapter, we will discuss the tools available for creating VB.Net applications.  We have already mentioned that VB.Net is part of .Net framework and used for writing .Net applications. Therefore before discussing the available tools for running a VB.Net program, let us understand how VB.Net relates to the .Net framework.</string>
+
+    <string name="local2">
+        The .Net framework is a revolutionary platform that helps you to write the following types of applications −\n\n
+
+        > Windows applications\n
+
+        > Web applications\n
+
+        > Web services\n
+
+        The .Net framework applications are multi-platform applications. The framework has been designed in such a way that it can be used from any of the following languages: Visual Basic, C#, C++, Jscript, and COBOL, etc.\n\n
+
+        All these languages can access the framework as well as communicate with each other.\n\n
+
+        The .Net framework consists of an enormous library of codes used by the client languages like VB.Net. These languages use object-oriented methodology.\n\n
+
+        Following are some of the components of the .Net framework −\n\n
+
+        Common Language Runtime (CLR)\n\n
+
+        The .Net Framework Class Library\n\n
+
+        Common Language Specification\n\n
+
+        Common Type System\n\n
+
+        Metadata and Assemblies\n\n
+
+        Windows Forms\n\n
+
+        ASP.Net and ASP.Net AJAX\n\n
+
+        ADO.Net\n\n
+
+        Windows Workflow Foundation (WF)\n\n
+
+        Windows Presentation Foundation\n\n
+
+        Windows Communication Foundation (WCF)\n\n
+
+        LINQ\n\n
+
+        For the jobs each of these components perform, please see ASP.Net - Introduction, and for details of each component, please consult Microsoft\'s documentation.\n\n
+    </string>
+
+    <string name="local3">
+        Microsoft provides the following development tools for VB.Net programming −\n\n
+
+        > Visual Studio 2010 (VS)\n
+
+        > Visual Basic 2010 Express (VBE)\n
+
+        > Visual Web Developer\n
+
+        The last two are free. Using these tools, you can write all kinds of VB.Net programs from simple command-line applications to more complex applications. Visual Basic Express and Visual Web Developer Express edition are trimmed down versions of Visual Studio and has the same look and feel. They retain most features of Visual Studio. In this tutorial, we have used Visual Basic 2010 Express and Visual Web Developer (for the web programming chapter).\n\n
+
+        You can download it from here. It gets automatically installed in your machine. Please note that you need an active internet connection for installing the express edition.\n\n
+    </string>
+
+    <string name="local4">
+        Although the.NET Framework runs on the Windows operating system, there are some alternative versions that work on other operating systems. Mono is an open-source version of the .NET Framework which includes a Visual Basic compiler and runs on several operating systems, including various flavors of Linux and Mac OS. The most recent version is VB 2012.\n\n
+
+        The stated purpose of Mono is not only to be able to run Microsoft .NET applications cross-platform, but also to bring better development tools to Linux developers. Mono can be run on many operating systems including Android, BSD, iOS, Linux, OS X, Windows, Solaris and UNIX.\n\n
+    </string>
+    <string name="program_structure">Program Structure</string>
+
+    <string name="program_structure1">
+        Before we study basic building blocks of the VB.Net programming language, let us look a bare minimum VB.Net program structure so that we can take it as a reference in upcoming chapters.\n\n
+
+        <b>VB.Net Hello World Example</b>\n\n
+        A VB.Net program basically consists of the following parts −\n\n
+
+        > Namespace declaration\n
+
+        > A class or module\n
+
+        > One or more procedures\n
+
+        > Variables\n
+
+        > The Main procedure\n
+
+        > Statements &amp; Expressions\n
+
+        > Comments\n\n
+
+        Let us look at a simple code that would print the words "Hello World" −
+    </string>
+
+    <string name="program_structure3">
+        Let us look various parts of the above program −\n\n
+
+        The first line of the program Imports System is used to include the System namespace in the program.\n\n
+
+        The next line has a Module declaration, the module Module1. VB.Net is completely object oriented, so every program must contain a module of a class that contains the data and procedures that your program uses.\n\n
+
+        Classes or Modules generally would contain more than one procedure. Procedures contain the executable code, or in other words, they define the behavior of the class. A procedure could be any of the following −\n\n
+
+        Function\n\n
+
+        Sub\n\n
+
+        Operator\n\n
+
+        Get\n\n
+
+        Set\n\n
+
+        AddHandler\n\n
+
+        RemoveHandler\n\n
+
+        RaiseEvent\n\n
+
+        The next line( \'This program) will be ignored by the compiler and it has been put to add additional comments in the program.\n\n
+
+        The next line defines the Main procedure, which is the entry point for all VB.Net programs. The Main procedure states what the module or class will do when executed.\n\n
+
+        The Main procedure specifies its behavior with the statement\n\n
+
+        Console.WriteLine("Hello World") WriteLine is a method of the Console class defined in the System namespace. This statement causes the message "Hello, World!" to be displayed on the screen.\n\n
+
+        The last line Console.ReadKey() is for the VS.NET Users. This will prevent the screen from running and closing quickly when the program is launched from Visual Studio .NET.\n\n
+    </string>
+
+    <string name="program_structure4">
+        if you are using Visual Studio.Net IDE, take the following steps −\n\n
+
+        1. Start Visual Studio.\n\
+
+        2. On the menu bar, choose File → New → Project.\n\
+
+        3. Choose Visual Basic from templates\n
+
+        4. Choose Console Application.\n
+
+        5. Specify a name and location for your project using the Browse button, and then choose the OK button.\n
+
+        6. The new project appears in Solution Explorer.\n
+
+        7. Write code in the Code Editor.\n
+
+        8. Click the Run button or the F5 key to run the project. A Command Prompt window appears that contains the line Hello World.\n\n
+
+         You can compile a VB.Net program by using the command line instead of the Visual Studio IDE −\n
+
+        1. Open a text editor and add the above mentioned code.\n
+
+        2. Save the file as helloworld.vb\n
+
+        3. Open the command prompt tool and go to the directory where you saved the file.\n
+
+        4. Type vbc helloworld.vb and press enter to compile your code.\n
+
+        5. If there are no errors in your code the command prompt will take you to the next line and would generate helloworld.exe executable file.\n
+
+        6. Next, type helloworld to execute your program.\n
+
+        7. You will be able to see "Hello World" printed on the screen.\n
+    </string>
+
+    <string name="basic1">
+        VB.Net is an object-oriented programming language. In Object-Oriented Programming methodology, a program consists of various objects that interact with each other by means of actions. The actions that an object may take are called methods. Objects of the same kind are said to have the same type or, more often, are said to be in the same class.\n\n
+
+        When we consider a VB.Net program, it can be defined as a collection of objects that communicate via invoking each other\'s methods. Let us now briefly look into what do class, object, methods and instance variables mean.\n\n
+
+        Object − Objects have states and behaviors. Example: A dog has states - color, name, breed as well as behaviors - wagging, barking, eating, etc. An object is an instance of a class.\n\n
+
+        Class − A class can be defined as a template/blueprint that describes the behaviors/states that objects of its type support.\n\n
+
+        Methods − A method is basically a behavior. A class can contain many methods. It is in methods where the logics are written, data is manipulated and all the actions are executed.\n\n
+
+        Instance Variables − Each object has its unique set of instance variables. An object\'s state is created by the values assigned to these instance variables.\n\n
+
+        A Rectangle Class in VB.Net
+        For example, let us consider a Rectangle object. It has attributes like length and width. Depending upon the design, it may need ways for accepting the values of these attributes, calculating area and displaying details.\n\n
+
+        Let us look at an implementation of a Rectangle class and discuss VB.Net basic syntax on the basis of our observations in it −\n\n
+    </string>
+    <string name="basic2">
+        When the above code is compiled and executed, it produces the following result −\n\n
+    </string>
+    <string name="basic3">
+        In previous chapter, we created a Visual Basic module that held the code. Sub Main indicates the entry point of VB.Net program. Here, we are using Class that contains both code and data. You use classes to create objects. For example, in the code, r is a Rectangle object.\n\n
+
+        An object is an instance of a class −\n\n
+
+        Dim r As New Rectangle() \n\n
+
+        A class may have members that can be accessible from outside class, if so specified. Data members are called fields and procedure members are called methods.\n\n
+
+        Shared methods or static methods can be invoked without creating an object of the class. Instance methods are invoked through an object of the class −\n\n
+    </string>
+
+    <string name="basic4">
+        <b>Identifiers</b>\n\n
+        An identifier is a name used to identify a class, variable, function, or any other user-defined item. The basic rules for naming classes in VB.Net are as follows −\n\n
+
+        A name must begin with a letter that could be followed by a sequence of letters, digits (0 - 9) or underscore. The first character in an identifier cannot be a digit.\n\n
+
+        It must not contain any embedded space or symbol like ? - +! @ # % ^ &amp; * ( ) [ ] { } . ; : " ' / and \. However, an underscore ( _ ) can be used.\n\n
+
+        It should not be a reserved keyword.\n\n
+
+        <b>VB.Net Keywords</b>
+        The following table lists the VB.Net reserved keywords −\n\n
+    </string>
+
+
+    <string name="basic_datatypes">Data Types</string>
+
+    <string name="datatype1">
+        Data types refer to an extensive system used for declaring variables or functions of different types. The type of a variable determines how much space it occupies in storage and how the bit pattern stored is interpreted.\n\n
+
+        Data Types Available in VB.Net\n\n
+        VB.Net provides a wide range of data types. The following table shows all the data types available −\n\n
+    </string>
+    <string name="datatype2"><b>Example</b>\n\n The following example demonstrates use of some of the types −\n</string>
+    <string name="datatype3">
+        Module DataTypes\n
+   Sub Main()\n
+      Dim b As Byte\n
+      Dim n As Integer\n
+      Dim si As Single\n
+      Dim d As Double\n
+      Dim da As Date\n
+      Dim c As Char\n
+      Dim s As String\n
+      Dim bl As Boolean\n\n
+
+      b = 1\n
+      n = 1234567\n
+      si = 0.12345678901234566\n
+      d = 0.12345678901234566\n
+      da = Today\n
+      c = "U"c\n
+      s = "Me"\n\n
+
+      If ScriptEngine = "VB" Then\n
+         bl = True\n
+      Else\n
+         bl = False\n
+      End If\n\n
+
+      If bl Then\n
+         \'the oath taking\n
+         Console.Write(c &amp; " and," &amp; s &amp; vbCrLf)\n
+         Console.WriteLine("declaring on the day of: {0}", da)\n
+         Console.WriteLine("We will learn VB.Net seriously")\n
+         Console.WriteLine("Lets see what happens to the floating point variables:")\n
+         Console.WriteLine("The Single: {0}, The Double: {1}", si, d)\n
+      End If\n
+      Console.ReadKey()\n
+       End Sub\n
+    End Module\n\n
+
+        When the above code is compiled and executed, it produces the following result −\n\n
+    </string>
+
+    <string name="datatype4">
+       <b> The Type Conversion Functions in VB.Net</b>\n\n
+        VB.Net provides the following in-line type conversion functions −\n\n
+    </string>
+
+    <string name="datatype5">
+        <b>Example</b>\n\n
+        The following example demonstrates some of these functions −\n\n
+    </string>
+
+
+    <string name="variable_types">VB.NET Variables </string>
+    <string name="variable1">
+        A variable is nothing but a name given to a storage area that our programs can manipulate. Each variable in VB.Net has a specific type, which determines the size and layout of the variable\'s memory; the range of values that can be stored within that memory; and the set of operations that can be applied to the variable.\n\n
+
+        We have already discussed various data types. The basic value types provided in VB.Net can be categorized as −\n
+    </string>
+
+
+    <string name="variable2">
+        VB.Net also allows defining other value types of variable like Enum and reference types of variables like Class. We will discuss date types and Classes in subsequent chapters.\n\n
+
+        <b>Variable Declaration in VB.Net</b>\n\n
+        The Dim statement is used for variable declaration and storage allocation for one or more variables. The Dim statement is used at module, class, structure, procedure or block level.\n\n
+
+        Syntax for variable declaration in VB.Net is −\n\n
+    </string>
+
+    <string name="variable3">
+        Where,\n\n
+
+        <b>attributelist</b> is a list of attributes that apply to the variable. Optional.\n\n
+
+        <b>accessmodifier</b> defines the access levels of the variables, it has values as - Public, Protected, Friend, Protected Friend and Private. Optional.\n\n
+
+        <b>Shared </b> declares a shared variable, which is not associated with any specific instance of a class or structure, rather available to all the instances of the class or structure. Optional.\n\n
+
+        <b>Shadows</b> indicate that the variable re-declares and hides an identically named element, or set of overloaded elements, in a base class. Optional.\n\n
+
+        <b>Static</b> indicates that the variable will retain its value, even when the after termination of the procedure in which it is declared. Optional.\n\n
+
+        <b>ReadOnly</b> means the variable can be read, but not written. Optional.\n\n
+
+        <b>WithEvents</b> specifies that the variable is used to respond to events raised by the instance assigned to the variable. Optional.\n\n
+
+        <b>Variablelist</b> provides the list of variables declared.\n\n
+
+        Each variable in the variable list has the following syntax and parts −\n\n
+
+        variablename[ ( [ boundslist ] ) ] [ As [ New ] datatype ] [ = initializer ] \n\n
+
+        Where,\n\n
+
+        <b>variablename</b> − is the name of the variable\n\n
+
+         <b>boundslist</b> − optional. It provides list of bounds of each dimension of an array variable.\n\n
+
+         <b>New</b> − optional. It creates a new instance of the class when the Dim statement runs.\n\n
+
+         <b>datatype</b> − Required if Option Strict is On. It specifies the data type of the variable.\n\n
+
+         <b>initializer</b> − Optional if New is not specified. Expression that is evaluated and assigned to the variable when it is created.\n\n
+
+        Some valid variable declarations along with their definition are shown here −\n\n
+            </string>
+
+    <string name="variable4">
+        <b>Variable Initialization in VB.Net</b>\n\n
+        Variables are initialized (assigned a value) with an equal sign followed by a constant expression. The general form of initialization is −\n\n
+
+        variable_name = value;\n\n
+
+        for example,\n\n
+
+        Dim pi As Double\n
+        pi = 3.14159\n\n
+
+        You can initialize a variable at the time of declaration as follows −\n\n
+
+        Dim StudentID As Integer = 100\n
+        Dim StudentName As String = "Bill Smith"\n\n
+
+        Example\n\n
+        Try the following example which makes use of various types of variables −\n\n
+    </string>
+
+    <string name="variable5">
+        <b>Accepting Values from User</b>\n\n
+        The Console class in the System namespace provides a function ReadLine for accepting input from the user and store it into a variable. For example,\n\n
+
+        Dim message As String\n
+        message = Console.ReadLine\n\n
+
+        The following example demonstrates it −\n\n
+
+    </string>
+    <string name="constants">Constants</string>
+
+    <string name="constants1">
+        The constants refer to fixed values that the program may not alter during its execution. These fixed values are also called literals.\n\n
+
+        Constants can be of any of the basic data types like an integer constant, a floating constant, a character constant, or a string literal. There are also enumeration constants as well.\n\n
+
+        The constants are treated just like regular variables except that their values cannot be modified after their definition.\n\n
+
+        An enumeration is a set of named integer constants.\n\n
+
+        <b>Declaring Constants</b>\n\n
+        In VB.Net, constants are declared using the Const statement. The Const statement is used at module, class, structure, procedure, or block level for use in place of literal values.\n\n
+
+        The syntax for the Const statement is −\n\n
+    </string>
+
+    <string name="constants2">
+        Where,\n\n
+
+        attributelist − specifies the list of attributes applied to the constants; you can provide multiple attributes separated by commas. Optional.\n\n
+
+        accessmodifier − specifies which code can access these constants. Optional. Values can be either of the: Public, Protected, Friend, Protected Friend, or Private.\n\n
+
+        Shadows − this makes the constant hide a programming element of identical name in a base class. Optional.\n\n
+
+        Constantlist − gives the list of names of constants declared. Required.\n\n
+
+        Where, each constant name has the following syntax and parts −\n\n
+
+       constantname [ As datatype ] = initializer\n\n
+
+        constantname − specifies the name of the constant\n\n
+
+        datatype − specifies the data type of the constant\n\n
+
+        initializer − specifies the value assigned to the constant\n\n
+
+        For example,\n\n
+    </string>
+
+    <string name="constants3">
+        Example\n\n
+        The following example demonstrates declaration and use of a constant value −\n\n
+    </string>
+    <string name="constants4">
+        <b>Print and Display Constants in VB.Net</b>\n\n
+        VB.Net provides the following print and display constants −\n\n
+    </string>
+
+
+    <string name="modifier_types">Modifiers</string>
+
+    <string name="modifier1">
+    The modifiers are keywords added with any programming element to give some especial emphasis on how the programming element will behave or will be accessed in the program.\n\n
+
+    For example, the access modifiers: Public, Private, Protected, Friend, Protected Friend, etc., indicate the access level of a programming element like a variable, constant, enumeration or a class.\n\n
+
+        <b>List of Available Modifiers in VB.Net</b>\n\n
+    The following table provides the complete list of VB.Net modifiers −  \n\n
+    </string>
+    <string name="statements">Statements</string>
+    <string name="statements1">
+        A statement is a complete instruction in Visual Basic programs. It may contain keywords, operators, variables, literal values, constants and expressions.\n\n
+
+        Statements could be categorized as −\n\n
+
+        Declaration statements − these are the statements where you name a variable, constant, or procedure, and can also specify a data type.\n\n
+
+        Executable statements − these are the statements, which initiate actions. These statements can call a method or function, loop or branch through blocks of code or assign values or expression to a variable or constant. In the last case, it is called an Assignment statement.\n\n
+
+        <b>Declaration Statements</b>\n\n
+        The declaration statements are used to name and define procedures, variables, properties, arrays, and constants. When you declare a programming element, you can also define its data type, access level, and scope.\n\n
+
+        The programming elements you may declare include variables, constants, enumerations, classes, structures, modules, interfaces, procedures, procedure parameters, function returns, external procedure references, operators, properties, events, and delegates.\n\n
+
+        Following are the declaration statements in VB.Net −\n\n
+    </string>
+
+    <string name="statements2">
+        <b>Executable Statements</b>\n\n
+        An executable statement performs an action. Statements calling a procedure, branching to another place in the code, looping through several statements, or evaluating an expression are executable statements. An assignment statement is a special case of an executable statement.\n\n
+
+        Example\n\n
+
+        The following example demonstrates a decision making statement −\n\n
+    </string>
+    <string name="basic_operators">Operators</string>
+    <string name="basic_operators1">
+        An operator is a symbol that tells the compiler to perform specific mathematical or logical manipulations. VB.Net is rich in built-in operators and provides following types of commonly used operators −\n\n
+
+        Arithmetic Operators\n
+
+        Comparison Operators\n
+
+        Logical/Bitwise Operators\n
+
+        Assignment Operators\n\n
+
+
+        This tutorial will explain the most commonly used operators.\n\n
+
+        <b>Arithmetic Operators</b>\n\n
+        Following table shows all the arithmetic operators supported by VB.Net. Assume variable A holds 2 and variable B holds 7, then −\n\n
+
+
+    </string>
+
+    <string name="basic_operator2">
+        <b>Comparison Operators</b>\n\n
+        Following table shows all the comparison operators supported by VB.Net. Assume variable A holds 10 and variable B holds 20, then −\n\n
+    </string>
+
+    <string name="basic_operator3">
+        Apart from the above, VB.Net provides three more comparison operators, which we will be using in forthcoming chapters; however, we give a brief description here.\n\n
+
+        > Is Operator − It compares two object reference variables and determines if two object references refer to the same object without performing value comparisons. If object1 and object2 both refer to the exact same object instance, result is True; otherwise, result is False.\n\n
+
+        > IsNot Operator − It also compares two object reference variables and determines if two object references refer to different objects. If object1 and object2 both refer to the exact same object instance, result is False; otherwise, result is True.\n\n
+
+        > Like Operator − It compares a string against a pattern.\n\n
+    </string>
+
+    <string name="basic_operator4">
+        <b>Assignment Operators</b>\n\n
+        There are following assignment operators supported by VB.Net −\n\n
+    </string>
+
+    <string name="basic_operator5">
+        <b>Operators Precedence in VB.Net</b>\n\n
+        Operator precedence determines the grouping of terms in an expression. This affects how an expression is evaluated. Certain operators have higher precedence than others; for example, the multiplication operator has higher precedence than the addition operator −\n\n
+
+        For example, x = 7 + 3 * 2; here, x is assigned 13, not 20 because operator * has higher precedence than +, so it first gets multiplied with 3*2 and then adds into 7.\n\n
+
+        Here, operators with the highest precedence appear at the top of the table, those with the lowest appear at the bottom. Within an expression, higher precedence operators will be evaluated first.\n\n
+    </string>
+
+    <string name="decision_making">Decision Making</string>
+    <string name="decision_making1">
+        Decision making structures require that the programmer specify one or more conditions to be evaluated or tested by the program, along with a statement or statements to be executed if the condition is determined to be true, and optionally, other statements to be executed if the condition is determined to be false.\n\n
+
+        Following is the general form of a typical decision making structure found in most of the programming languages −\n\n
+    </string>
+
+    <string name="decision_making2">
+        VB.Net provides the following types of decision making statements. Click the following links to check their details.\n\n
+    </string>
+    <string name="loop_control">Loops</string>
+
+    <string name="loop_control1">
+        There may be a situation when you need to execute a block of code several number of times. In general, statements are executed sequentially: The first statement in a function is executed first, followed by the second, and so on.\n\n
+
+        Programming languages provide various control structures that allow for more complicated execution paths.\n\n
+
+        A loop statement allows us to execute a statement or group of statements multiple times and following is the general form of a loop statement in most of the programming languages −\n\n
+    </string>
+
+    <string name="loop_control2">
+        VB.Net provides following types of loops to handle looping requirements. Click the following links to check their details.\n\n
+    </string>
+
+    <string name="loop_control3">
+        <b>Loop Control Statements</b>\n\n
+        Loop control statements change execution from its normal sequence. When execution leaves a scope, all automatic objects that were created in that scope are destroyed.\n\n
+
+        VB.Net provides the following control statements. Click the following links to check their details.\n\n
+    </string>
+    <string name="strings_class">Strings</string>
+
+    <string name="strings_class1">
+        In VB.Net, you can use strings as array of characters, however, more common practice is to use the String keyword to declare a string variable. The string keyword is an alias for the System.String class.\n\n
+
+        <b>Creating a String Object</b>\n\n
+        You can create string object using one of the following methods −\n\n
+
+        By assigning a string literal to a String variable\n
+
+        By using a String class constructor\n
+
+        By using the string concatenation operator (+)\n
+
+        By retrieving a property or calling a method that returns a string\n
+
+        By calling a formatting method to convert a value or object to its string representation\n\n
+
+        The following example demonstrates this −\n\n
+    </string>
+
+    <string name="strings_class2">
+        <b>Properties of the String Class</b>\n\n
+        The String class has the following two properties −\n\n
+    </string>
+
+    <string name="strings_class3">
+        <b>Methods of the String Class</b>\n\n
+        The String class has numerous methods that help you in working with the string objects. The following table provides some of the most commonly used methods −\n
+    </string>
+
+    <string name="strings_class4">
+        The above list of methods is not exhaustive, please visit MSDN library for the complete list of methods and String class constructors.\n\n
+
+        Examples\n\n
+        The following example demonstrates some of the methods mentioned above −\n\n
+
+        Comparing Strings\n\n
+
+    </string>
+    <string name="arrays">Arrays</string>
+
+    <string name="arrays1">
+        An array stores a fixed-size sequential collection of elements of the same type. An array is used to store a collection of data, but it is often more useful to think of an array as a collection of variables of the same type.\n\n
+
+        All arrays consist of contiguous memory locations. The lowest address corresponds to the first element and the highest address to the last element.\n
+    </string>
+
+    <string name="arrays2">
+        Creating Arrays in VB.Net\n\n
+        To declare an array in VB.Net, you use the Dim statement. For example,\n\n
+
+        Dim intData(30)	  \' an array of 31 elements\n
+        Dim strData(20) As String	\' an array of 21 strings\n
+        Dim twoDarray(10, 20) As Integer	\'a two dimensional array of integers\n
+        Dim ranges(10, 100)	 \'a two dimensional array\n\n
+
+        You can also initialize the array elements while declaring the array. For example,\n\n
+
+        Dim intData() As Integer = {12, 16, 20, 24, 28, 32}\n
+        Dim names() As String = {"Karthik", "Sandhya", _\n
+        "Shivangi", "Ashwitha", "Somnath"}\n
+        Dim miscData() As Object = {"Hello World", 12d, 16ui, "A"c}\n\n
+
+        The elements in an array can be stored and accessed by using the index of the array. The following program demonstrates this −\n\n
+    </string>
+
+    <string name="arrays3">
+        <b>The Array Class</b>\n\n
+        The Array class is the base class for all the arrays in VB.Net. It is defined in the System namespace. The Array class provides various properties and methods to work with arrays.\n\n
+
+        Properties of the Array Class\n\n
+        The following table provides some of the most commonly used properties of the Array class −\n\n
+    </string>
+
+    <string name="function">
+        Functions
+    </string>
+
+    <string name="function1">
+        A procedure is a group of statements that together perform a task when called. After the procedure is executed, the control returns to the statement calling the procedure. VB.Net has two types of procedures −\n\n
+
+        > Functions\n
+        > Sub procedures or Subs\n\n
+
+        Functions return a value, whereas Subs do not return a value.\n\n
+
+        <b>Defining a Function</b>\n\n
+        The Function statement is used to declare the name, parameter and the body of a function. The syntax for the Function statement is −\n\n
+
+        [Modifiers] Function FunctionName [(ParameterList)] As ReturnType\n
+        [Statements]\n
+        End Function\n\n
+
+        Where,\n\n
+
+        Modifiers − specify the access level of the function; possible values are: Public, Private, Protected, Friend, Protected Friend and information regarding overloading, overriding, sharing, and shadowing.\n\n
+
+        FunctionName − indicates the name of the function\n\n
+
+        ParameterList − specifies the list of the parameters\n\n
+
+        ReturnType − specifies the data type of the variable the function returns\n\n
+
+        Example\n\n
+        Following code snippet shows a function FindMax that takes two integer values and returns the larger of the two.\n\n
+    </string>
+
+    <string name="function2">
+        Function Returning a Value\n\n
+        In VB.Net, a function can return a value to the calling code in two ways −\n\n
+
+        > By using the return statement\n
+
+        > By assigning the value to the function name\n\n
+
+        The following example demonstrates using the FindMax function −\n\n
+    </string>
+    <string name="object_and_classes"><![CDATA[Classes & Objects]]></string>
+
+    <string name="object1">
+        When you define a class, you define a blueprint for a data type. This doesn\'t actually define any data, but it does define what the class name means, that is, what an object of the class will consist of and what operations can be performed on such an object.\n\n
+
+        Objects are instances of a class. The methods and variables that constitute a class are called members of the class.\n\n
+
+        <b>Class Definition</b>\n\n
+        A class definition starts with the keyword Class followed by the class name; and the class body, ended by the End Class statement. Following is the general form of a class definition −\n\n
+
+        [ attributelist ] [ accessmodifier ] [ Shadows ] [ MustInherit | NotInheritable ] [ Partial ] _\n
+        Class name [ ( Of typelist ) ]\n
+           [ Inherits classname ]\n
+           [ Implements interfacenames ]\n
+           [ statements ]\n
+        End Class\n\n
+
+
+        Where,
+
+        > attributelist is a list of attributes that apply to the class. Optional.\n\n
+
+        > accessmodifier defines the access levels of the class, it has values as - Public, Protected, Friend, Protected Friend and Private. Optional.\n\n
+
+        > Shadows indicate that the variable re-declares and hides an identically named element, or set of overloaded elements, in a base class. Optional.\n\n
+
+        > MustInherit specifies that the class can be used only as a base class and that you cannot create an object directly from it, i.e., an abstract class. Optional.\n\n
+
+        > NotInheritable specifies that the class cannot be used as a base class.\n\n
+
+        > Partial indicates a partial definition of the class.\n\n
+
+        > Inherits specifies the base class it is inheriting from.\n\n
+
+        > Implements specifies the interfaces the class is inheriting from.\n\n
+
+        The following example demonstrates a Box class, with three data members, length, breadth and height −\n\n
+
+
+    </string>
+
+    <string name="object2">
+        When the above code is compiled and executed, it produces the following result −\n\n
+
+        Volume of Box1 : 210\n
+        Volume of Box2 : 1560\n\n
+    </string>
+
+    <string name="object3">
+        <b>Constructors and Destructors</b>\n\n
+        A class constructor is a special member Sub of a class that is executed whenever we create new objects of that class. A constructor has the name New and it does not have any return type.\n\n
+
+        Following program explains the concept of constructor −\n\n
+    </string>
+
+    <string name="object4">
+        A default constructor does not have any parameter, but if you need, a constructor can have parameters. Such constructors are called parameterized constructors. This technique helps you to assign initial value to an object at the time of its creation as shown in the following example −\n\n
+    </string>
+    <string name="basic_controls">Basic Controls</string>
+
+    <string name="basic_controls1">
+        An object is a type of user interface element you create on a Visual Basic form by using a toolbox control. In fact, in Visual Basic, the form itself is an object. Every Visual Basic control consists of three important elements −\n\n
+
+        > Properties which describe the object,\n
+
+        > Methods cause an object to do something \n
+
+        > Events are what happens when an object does something.\n\n
+
+        <b>Control Properties</b>\n\n
+        All the Visual Basic Objects can be moved, resized or customized by setting their properties. A property is a value or characteristic held by a Visual Basic object, such as Caption or Fore Color.\n\n
+
+        Properties can be set at design time by using the Properties window or at run time by using statements in the program code.\n\n
+
+
+
+        Object. Property = Value\n\n
+        Where\n\n
+
+        > Object is the name of the object you\'re customizing.\n
+
+        > Property is the characteristic you want to change.\n
+
+        > Value is the new property setting.\n\n
+
+        For example,\n\n
+
+        Form1.Caption = "Hello"\n\n
+        You can set any of the form properties using Properties Window. Most of the properties can be set or read during application execution. You can refer to Microsoft documentation for a complete list of properties associated with different controls and restrictions applied to them.\n\n
+
+        <b>Control Methods</b>\n\n
+        A method is a procedure created as a member of a class and they cause an object to do something. Methods are used to access or manipulate the characteristics of an object or a variable. There are mainly two categories of methods you will use in your classes −\n\n
+
+        If you are using a control such as one of those provided by the Toolbox, you can call any of its public methods. The requirements of such a method depend on the class being used.\n\n
+
+        If none of the existing methods can perform your desired task, you can add a method to a class.\n\n
+
+        For example, the MessageBox control has a method named Show, which is called in the code snippet below −\n\n
+
+
+    </string>
+
+    <string name="basic_controls2">
+        <b>Control Events</b>\n\n
+        An event is a signal that informs an application that something important has occurred. For example, when a user clicks a control on a form, the form can raise a Click event and call a procedure that handles the event. There are various types of events associated with a Form like click, double click, close, load, resize, etc.\n\n
+
+        Following is the default structure of a form Load event handler subroutine. You can see this code by double clicking the code which will give you a complete list of the all events associated with Form control −\n\n
+
+        Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load\n
+           \'event handler code goes here\n
+        End Sub\n\n
+
+        Here, Handles MyBase.Load indicates that Form1_Load() subroutine handles Load event. Similar way, you can check stub code for click, double click. If you want to initialize some variables like properties, etc., then you will keep such code inside Form1_Load() subroutine. Here, important point to note is the name of the event handler, which is by default Form1_Load, but you can change this name based on your naming convention you use in your application programming.\n\n
+
+        <b>Basic Controls</b>\n\n
+        VB.Net provides a huge variety of controls that help you to create rich user interface. Functionalities of all these controls are defined in the respective control classes. The control classes are defined in the System.Windows.Forms namespace.\n\n
+
+        The following table lists some of the commonly used controls −\n\n
+    </string>
+    <string name="dialog_boxes">Dialog Boxes</string>
+    <string name="dialog_boxes1">
+        There are many built-in dialog boxes to be used in Windows forms for various tasks like opening and saving files, printing a page, providing choices for colors, fonts, page setup, etc., to the user of an application. These built-in dialog boxes reduce the developer\'s time and workload.\n\n
+
+        All of these dialog box control classes inherit from the CommonDialog class and override the RunDialog() function of the base class to create the specific dialog box.\n\n
+
+        The RunDialog() function is automatically invoked when a user of a dialog box calls its ShowDialog() function.\n\n
+
+        The ShowDialog method is used to display all the dialog box controls at run-time. It returns a value of the type of DialogResult enumeration. The values of DialogResult enumeration are −\n\n
+
+        Abort − returns DialogResult.Abort value, when user clicks an Abort button.\n\n
+
+        Cancel − returns DialogResult.Cancel, when user clicks a Cancel button.\n\n
+
+        Ignore − returns DialogResult.Ignore, when user clicks an Ignore button.\n\n
+
+        No − returns DialogResult.No, when user clicks a No button.\n\n
+
+        None − returns nothing and the dialog box continues running.\n\n
+
+        OK − returns DialogResult.OK, when user clicks an OK button\n\n
+
+        Retry − returns DialogResult.Retry , when user clicks an Retry button\n\n
+
+        Yes − returns DialogResult.Yes, when user clicks an Yes button\n\n
+
+        The following diagram shows the common dialog class inheritance −\n\n
+    </string>
+
+    <string name="dialog_boxes2">
+        All these above-mentioned classes have corresponding controls that could be added from the Toolbox during design time. You can include relevant functionality of these classes to your application, either by instantiating the class programmatically or by using relevant controls.\n\n
+
+        When you double click any of the dialog controls in the toolbox or drag the control onto the form, it appears in the Component tray at the bottom of the Windows Forms Designer, they do not directly show up on the form.\n\n
+
+        The following table lists the commonly used dialog box controls. Click the following links to check their detail −\n\n
+    </string>
+    <string name="event_handling">Event Handling</string>
+
+    <string name="event_handling1">
+        Events are basically a user action like key press, clicks, mouse movements, etc., or some occurrence like system generated notifications. Applications need to respond to events when they occur.\n\n
+
+        Clicking on a button, or entering some text in a text box, or clicking on a menu item, all are examples of events. An event is an action that calls a function or may cause another event. Event handlers are functions that tell how to respond to an event.\n\n
+
+        VB.Net is an event-driven language. There are mainly two types of events −\n\n
+
+        Mouse events\n
+
+        Keyboard events\n
+
+        Handling Mouse Events\n\n
+
+        Mouse events occur with mouse movements in forms and controls. Following are the various mouse events related with a Control class −\n\n
+
+        MouseDown − it occurs when a mouse button is pressed\n\n
+
+        MouseEnter − it occurs when the mouse pointer enters the control\n\n
+
+        MouseHover − it occurs when the mouse pointer hovers over the control\n\n
+
+        MouseLeave − it occurs when the mouse pointer leaves the control\n\n
+
+        MouseMove − it occurs when the mouse pointer moves over the control\n\n
+
+        MouseUp − it occurs when the mouse pointer is over the control and the mouse button is released\n\n
+
+        MouseWheel − it occurs when the mouse wheel moves and the control has focus\n\n
+
+        The event handlers of the mouse events get an argument of type MouseEventArgs. The MouseEventArgs object is used for handling mouse events. It has the following properties −\n\n
+
+        Buttons − indicates the mouse button pressed\n\n
+
+        Clicks − indicates the number of clicks\n\n
+
+        Delta − indicates the number of detents the mouse wheel rotated\n\n
+
+        X − indicates the x-coordinate of mouse click\n\n
+
+        Y − indicates the y-coordinate of mouse click\n\n
+
+        Example\n\n
+        Following is an example, which shows how to handle mouse events. Take the following steps −\n\n
+
+        Add three labels, three text boxes and a button control in the form.\n
+
+        Change the text properties of the labels to - Customer ID, Name and Address, respectively.\n
+
+        Change the name properties of the text boxes to txtID, txtName and txtAddress, respectively.\n
+
+        Change the text property of the button to \'Submit\'.\n
+
+        Add the following code in the code editor window −\n\n
+    </string>
+
+    <string name="event_handling2">
+        When the above code is executed and run using Start button available at the Microsoft Visual Studio tool bar, it will show the following window −\n\n
+    </string>
+
+    <string name="event_handling3">
+        <b>Handling Keyboard Events</b>\n\n
+        Following are the various keyboard events related with a Control class −\n\n
+
+        KeyDown − occurs when a key is pressed down and the control has focus\n\n
+
+        KeyPress − occurs when a key is pressed and the control has focus\n\n
+
+        KeyUp − occurs when a key is released while the control has focus\n\n
+
+        The event handlers of the KeyDown and KeyUp events get an argument of type KeyEventArgs. This object has the following properties −\n\n
+
+        Alt − it indicates whether the ALT key is pressed\n\n
+
+        Control − it indicates whether the CTRL key is pressed\n\n
+
+        Handled − it indicates whether the event is handled\n\n
+
+        KeyCode − stores the keyboard code for the event\n\n
+
+        KeyData − stores the keyboard data for the event\n\n
+
+        KeyValue − stores the keyboard value for the event\n\n
+
+        Modifiers − it indicates which modifier keys (Ctrl, Shift, and/or Alt) are pressed\n\n
+
+        Shift − it indicates if the Shift key is pressed\n\n
+
+        The event handlers of the KeyDown and KeyUp events get an argument of type KeyEventArgs. This object has the following properties −\n\n
+
+        Handled − indicates if the KeyPress event is handled\n\n
+
+        KeyChar − stores the character corresponding to the key pressed\n\n
+    </string>
+
+    <string name="event_handling4">
+        Let us continue with the previous example to show how to handle keyboard events. The code will verify that the user enters some numbers for his customer ID and age.\n\n
+
+        Add a label with text Property as \'Age\' and add a corresponding text box named txtAge.\n\n
+
+        Add the following codes for handling the KeyUP events of the text box txtID.\n\n
+    </string>
+
+    <string name="event_handling5">
+        When the above code is executed and run using Start button available at the Microsoft Visual Studio tool bar, it will show the following window −\n\n
+    </string>
+
+    <string name="event_handling6">
+    If you leave the text for age or ID as blank or enter some non-numeric data, it gives a warning message box and clears the respective text −\n\n
+    </string>
+</resources>
